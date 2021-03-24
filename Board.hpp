@@ -11,7 +11,7 @@ namespace ariel
         unsigned int cols;
 
     public:
-        static void post(unsigned int row, unsigned int column, Direction direction, string data);           // Function Based off Demo given by Erel(Arguments...)
+        static void post(unsigned int row, unsigned int column, Direction direction, string const & data);           // Function Based off Demo given by Erel(Arguments...)
         static string read(unsigned int row, unsigned int column, Direction direction, unsigned int length); // Function Based off Demo given by Erel(Arguments...)
         void show();
     };

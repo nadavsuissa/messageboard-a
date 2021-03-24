@@ -5,7 +5,7 @@ using namespace std;
 namespace ariel
 {
     // Empty Func Just for compile and Test
-    void Board::post(unsigned int row, unsigned int column, Direction direction, string data )
+    void Board::post(unsigned int row, unsigned int column, Direction direction, string const & data )
     {
         
     }

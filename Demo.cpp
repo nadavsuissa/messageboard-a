@@ -13,6 +13,9 @@ using ariel::Direction;
 #include <stdexcept>
 using namespace std;
 
+// Vertical - Up Down
+// Horizontal - Left Right
+
 int main() {
 	ariel::Board board;
 	board.post(/*row=*/100, /*column=*/200, Direction::Horizontal, "abcd");
